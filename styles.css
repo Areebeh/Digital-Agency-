@@ -1,0 +1,427 @@
+/* **************************universal-selector************************** */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* **************************tag-selector************************** */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* **************************header-portion-starts************************** */
+/* **************************class-selector************************** */
+
+.header {
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav li {
+    padding: 0px 10px;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    padding-left: 20px;
+    height: 40px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.header-content-col-div-1 a img {
+    width: 40px;
+    margin: 20px;
+}
+
+.header-content-col-div-2 a img {
+    width: 300px;
+    height: auto;
+}
+
+.header-content-col-div-1 a {
+    text-decoration: none;
+    color: #fff;
+    color: #eee8e8;
+}
+
+.header-content-col-div-1 {
+    padding: 80px 100px 10px 100px;
+}
+
+.header-content-col-div-2 {
+    padding: 40px 100px 10px 100px
+}
+
+.header-content{
+    margin-top: 50px;
+}
+
+.header-content h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.header-content p {
+    color: #eee8e8;
+    font-size: 14px;
+}
+
+.bottom-image {
+    width: 100%;
+}
+
+.navbar-toggler-icon {
+    padding-right: 30px;
+}
+
+/* **************************header-portion-ends************************** */
+/* **************************service-portion-starts************************** */
+/* **************************class-selector************************** */
+
+.service{
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 150px;
+}
+
+.service img{
+    width: 70px;
+}
+
+.service-h1{
+    color: #242124;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 90px;
+}
+
+.service-h1::before{
+    content: "";
+    background: #7b1789;
+    height: 5px;
+    width: 200px;
+    margin-left: auto ;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.service-h1::after {
+    content: "";
+    background: #7b1789;
+    height: 10px;
+    width: 50px;
+    margin-left: auto ;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 40px ;
+    transform: translateY(19px);
+}
+
+.service .row h1{
+    color: #242124;
+    font-size: 20px;
+    font-weight:400;
+    margin-bottom: 12px;
+}
+
+.service p{
+    color: #696969;
+    font-size: 14px;
+}
+
+.service a img{
+    margin-bottom: 30px;
+}
+
+.service a button{
+    background-color:#a517ba;
+    color: #fff;
+    border: 2px solid #a517ba;
+    padding: 8px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.service a button:hover{
+    background-color: #a453b0;
+    border: 2px solid #a453b0;
+}
+
+/* **************************service-portion-ends************************** */
+/* **************************About-us-portion-starts************************** */
+/* **************************class-selector************************** */
+
+.about-us{
+    width: 100%;
+    padding: 20px 150px;
+    height: 80vh;
+    background-color: #f8f9fa;
+}
+
+.about-us-h1{
+    color: #242124;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.about-us h2{
+    color: #242124;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-us a img{
+    width: 300px;
+}
+
+.about-us li{
+    color: #242124;
+    font-size: 14px;
+
+}
+
+.about-us h1::before , .testimonial h1::before{
+    content: "";
+    background: #7b1789;
+    height: 5px;
+    width: 200px;
+    margin-left: auto ;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.about-us h1::after , .testimonial h1::after{
+    content: "";
+    background: #7b1789;
+    height: 10px;
+    width: 50px;
+    margin-left: auto ;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 40px ;
+    transform: translateY(12px);
+}
+
+/* **************************About-us-portion-ends************************** */
+/* **************************testimonials-portion-starts************************** */
+/* **************************class-selector************************** */
+
+
+.testimonial{
+    width: 100%;
+    padding: 20px 150px;
+    height: 80vh;
+}
+
+.testimonial h1{
+    color: #242124;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 90px;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.testimonial a img{
+    width: 70px;
+    border-radius: 50px;
+}
+
+.testimonial-col-div{
+    padding: 0px 50px!important;
+    border-left: 4px solid #7b1798;
+}
+
+.testimonial p {
+    color: #696969;
+    font-size: 14px;
+}
+
+.testimonial-p{
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+/* **************************testimonials-portion-ends************************** */
+/* **************************contact-us-starts************************** */
+/* **************************class-selector************************** */
+
+.contact-us{
+    width: 100%;
+    height: auto;
+    background: #f8f9fa;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contact-us-h1{
+    color: #242124;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.contact-us-icons a img{
+    width: 50px!important;
+    transition: 0.5s;
+}
+
+.contact-us-icons a img:hover{
+    transform: translateY(-10px);
+}
+
+.contact-us-icons{
+    text-align: center;   
+}
+
+/* **************************contact-us-portion-ends************************** */
+/* **************************footer-portion-starts************************** */
+/* **************************class-selector************************** */
+
+.footer{
+    background: linear-gradient(to right, #a517ba, #5f1782)!important;
+    width: 100%;
+    height: auto;
+}
+
+.footer-wave-image{
+    width: 100%;
+}
+
+.footer-container-div{
+    margin-top: 50px;
+    padding: 20px 100px!important;
+}
+
+.footer-col-div{
+    padding: 0px 10px!important;
+}
+
+.footer-logo-image{
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 14px;
+    margin-bottom: 21px;
+    text-transform: uppercase;
+}
+
+.footer-input{
+    width: 80%!important;
+}
+
+.footer a button{
+    background-color:#a517ba;
+    color: #fff;
+    border: 2px solid #a517ba;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.footer a button:hover{
+    background-color: #a453b0;
+    border: 2px solid #a453b0;
+}
+
+.last-div hr{
+    color: #fff;
+    margin-top: 30px!important;
+    margin-bottom: 20px;
+}
+
+.last-div p{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+
+
+
+/* **************************media-query-portion-starts************************** */
+
+@media(max-width:1000px) {
+    .nav-link {
+        text-align: center !important;
+    }
+    .about-us , .service , .testimonial{
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .service-second-div , .testimonial-col-div , .about-us-col-div ,.footer-col-div-2 {
+        /* margin: 50px auto!important; */
+        margin: 50px auto!important;
+    }
+    .about-us ,.testimonial {
+        text-align: center!important;
+    }
+    .about-us-h1::after , .testimonial-h1::after{
+        transform: translateY(12px)!important;
+    }
+    .service-h1::after {
+        transform: translateY(20px)!important;
+    }
+}
+
+@media(max-width:768px) {
+    .service a button{
+        margin-top: 60px;
+    }
+    .service , .about-us , .testimonial{
+        padding: 20px 50px;
+    }
+    .about-us-h1 , .service-h1 , .testimonial-h1{
+        font-size: 1.3rem!important;
+    }
+    .about-us-h1::after , .service-h1::after , .testimonial-h1::after{
+        transform: translateY(30px)!important;
+    }
+    .contact-us-h1{
+        font-size: 1.3rem!important;
+    }
+    .about-us{
+        padding-left: 50px;
+    }
+}
